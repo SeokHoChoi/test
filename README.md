@@ -1,3 +1,4 @@
+```
 flowchart LR
 A(((First entry))) --> NO{URL non-existent} --> |Yes| Q[NotFound]
 NO{URL non-existent} --> |No| B[Home] --> R{Previously Signed in} --> |Yes| Z[Signed in State]
@@ -30,3 +31,4 @@ R{Previously Signed in} --> |No| Y[Not Signed in State]
 
     Y --> I["Food List(All states accessible)"] --> K["Food Detail(All states accessible)"]
     Y --> H["Snack List(All states accessible)"] --> J["Snack Detail(All states accessible)"]
+```
